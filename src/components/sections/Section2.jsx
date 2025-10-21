@@ -8,17 +8,13 @@ export default function Section2() {
       id="about"
       className="relative flex min-h-[100vh] flex-col items-center justify-center px-6 py-24 overflow-hidden"
     >
-      {/* === Background gradasi menyatu dengan Section 1 === */}
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-[#1a1a33] via-[#131326] to-[#0a0a0f]" />
 
-      {/* Cahaya lembut agar konsisten dengan Section 1 */}
       <div className="absolute top-10 right-20 h-72 w-72 rounded-full bg-blue-500/10 blur-3xl animate-pulse" />
       <div className="absolute bottom-10 left-20 h-72 w-72 rounded-full bg-purple-600/10 blur-3xl animate-pulse" />
 
-      {/* Pola radial halus */}
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_center,_rgba(255,255,255,0.05),_transparent_70%)]" />
 
-      {/* === Judul Section === */}
       <motion.div
         initial={{ opacity: 0, y: -40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -34,7 +30,6 @@ export default function Section2() {
         </div>
       </motion.div>
 
-      {/* === Konten Utama === */}
       <div className="flex flex-col-reverse lg:flex-row items-center justify-center gap-12 lg:gap-20 z-10">
         {/* Deskripsi */}
         <motion.div
@@ -59,7 +54,6 @@ export default function Section2() {
             <span className="text-white">TailwindCSS</span>.
           </p>
 
-          {/* CTA */}
           <motion.a
             href="#projects"
             whileHover={{ scale: 1.05 }}
@@ -69,7 +63,6 @@ export default function Section2() {
           </motion.a>
         </motion.div>
 
-        {/* Foto Profil */}
         <motion.div
           initial={{ opacity: 0, x: 60 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -90,7 +83,6 @@ export default function Section2() {
         </motion.div>
       </div>
 
-      {/* === Highlight Skill Cards === */}
       <motion.div
         initial={{ opacity: 0, y: 60 }}
         whileInView={{ opacity: 1, y: 0 }}
