@@ -141,7 +141,7 @@ export default function Section1() {
             boxShadow: '0px 0px 15px rgba(255,255,255,0.6)',
           }}
           whileTap={{ scale: 0.95 }}
-          className="mt-10 rounded-full border-2 border-white/80 px-8 py-3 text-white transition-all duration-300"
+          className="mt-10 rounded-full border-2 border-white/80 px-8 py-3 text-white transition-all duration-3"
         >
           See My Work ↓
         </motion.a>
