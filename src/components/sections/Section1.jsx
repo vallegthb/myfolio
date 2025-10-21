@@ -13,7 +13,6 @@ export default function Section1() {
       <div className="absolute bottom-20 right-16 h-72 w-72 rounded-full bg-purple-600/20 blur-3xl animate-pulse" />
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_center,_rgba(255,255,255,0.05),_transparent_70%)]" />
 
-      {/* === Animated Floating Particles === */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         {[...Array(15)].map((_, i) => (
           <motion.span
@@ -39,14 +38,13 @@ export default function Section1() {
         ))}
       </div>
 
-      {/* === Konten utama === */}
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
         className="flex flex-col items-center text-center"
       >
-        {/* Teks sambutan */}
+
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -56,7 +54,6 @@ export default function Section1() {
           <p>Hello, Welcome to my</p>
         </motion.div>
 
-        {/* Teks utama dengan efek shimmer */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
