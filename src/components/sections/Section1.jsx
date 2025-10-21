@@ -93,7 +93,6 @@ export default function Section1() {
           </motion.p>
         </motion.div>
 
-        {/* Subjudul */}
         <motion.p
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
@@ -103,7 +102,6 @@ export default function Section1() {
           Frontend Developer • Creative Designer • Innovator
         </motion.p>
 
-        {/* Deskripsi singkat */}
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -114,7 +112,6 @@ export default function Section1() {
           dengan teknologi untuk menciptakan pengalaman digital yang berkesan dan profesional.
         </motion.p>
 
-        {/* Mini Highlight Cards */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -132,7 +129,6 @@ export default function Section1() {
           ))}
         </motion.div>
 
-        {/* Tombol CTA */}
         <motion.a
           href="#about"
           initial={{ opacity: 0, y: 20 }}
@@ -151,7 +147,6 @@ export default function Section1() {
         </motion.a>
       </motion.div>
 
-      {/* Scroll Indicator */}
       <motion.div
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
